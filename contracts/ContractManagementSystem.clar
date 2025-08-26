@@ -10,6 +10,7 @@
 (define-constant err-invalid-data (err u104))
 (define-constant err-contract-expired (err u105))
 
+
 ;; Contract status constants
 (define-constant status-active u1)
 (define-constant status-pending-renewal u2)
