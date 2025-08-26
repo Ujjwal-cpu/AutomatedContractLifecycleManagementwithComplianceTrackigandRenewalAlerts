@@ -63,20 +63,6 @@ Contact ID:
 0x477e7a1631045c3ec3bf80aeb877f8d8271098fe8e5b72fd3d35268636e169f0
 <img width="1102" height="778" alt="image" src="https://github.com/user-attachments/assets/5085b650-2637-48f7-9b5d-6951ebb9911e" />
 
-```
-Network: Stacks Mainnet/Testnet
-Contract Address: [To be added after deployment]
-Contract Name: contract-lifecycle-management
-Version: 1.0.0
-Deployment Date: [To be added]
-Deployer Address: [To be added]
-```
-
-### Deployment Information
-- **Mainnet Address**: `[Add your deployed contract address here]`
-- **Testnet Address**: `[Add your testnet contract address here]`
-- **Contract Identifier**: `[Add full contract identifier here]`
-
 ---
 
 ## Technical Specifications
@@ -88,13 +74,6 @@ Deployer Address: [To be added]
 ### Data Structures
 - **contracts map**: Stores complete contract information
 - **compliance-records map**: Maintains compliance history and audit trails
-
-### Status Codes
-- Active (1): Contract is currently in effect
-- Pending Renewal (2): Contract approaching expiration
-- Expired (3): Contract has passed its end date
-- Compliant (4): Meeting all compliance requirements
-- Non-compliant (5): Compliance issues detected
 
 ### Event System
 The contract emits structured events for:
